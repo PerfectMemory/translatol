@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 16
       - name: Install Dependencies
-        run: yarn i
+        run: yarn
       - name: Download Build Artifact
         uses: actions/download-artifact@v3
         with:
