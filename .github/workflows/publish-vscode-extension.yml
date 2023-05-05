@@ -24,12 +24,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Install Dependencies
-        run: yarn
-      - name: Download Build Artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: ubuntu-latest
+      - run: yarn
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
