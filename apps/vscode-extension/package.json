@@ -1,6 +1,6 @@
 {
   "name": "translatol",
-  "version": "0.1.3-alpha.1",
+  "version": "0.1.3-alpha.2",
   "displayName": "Translatol",
   "description": "Translate XLIFF files easily",
   "main": "apps/vscode-extension/src/main.js",
